@@ -6,6 +6,7 @@ import {
   View
 } from 'react-native';
 import styles from './Styles/AppStyle';
+import EventName from '../Components/EventName';
 
 /**
  * Root component to wire up ios and android.
@@ -18,6 +19,7 @@ class App extends Component {
         <Text style={styles.welcome}>
           Welcome Folks.
         </Text>
+        <EventName name="TYPO3camp Berlin" />
       </View>
     );
   }
